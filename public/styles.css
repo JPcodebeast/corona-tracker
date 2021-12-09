@@ -1,0 +1,80 @@
+body {
+    background: rgb(46, 215, 245);
+}
+
+.jumbotron .red-color {
+    color: #e92e4d;
+}
+
+.green-color {
+    color: #14b64d;
+}
+
+.chart-container {
+    position: relative;
+    margin: auto;
+    height: 80vh;
+    width: 80vw;
+}
+
+.white {
+    color: rgb(250, 249, 252);
+}
+
+.black {
+    color: #b9108f;
+}
+
+.grey {
+    color: rgb(175, 153, 30);
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+footer {
+    background-color: grey;
+}
+
+footer h3 {
+    font-size: 20px;
+}
+
+.footer .container {
+    padding: 40px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #8ff3d7;
+}
+
+.inline {
+    display: inline-block;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.inline a {
+    text-decoration: none;
+    color: black;
+}
+
+.cr,
+.me {
+    margin-right: 40px;
+}
+
+.fb,
+.tw {
+    margin-right: 40px;
+}
+
+.cr:after,
+.me:after {
+    content: "";
+    border: 1px solid #555555;
+    margin-left: 35px;
+}
